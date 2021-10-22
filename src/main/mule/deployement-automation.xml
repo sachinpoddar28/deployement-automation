@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="deployement-automationFlow" doc:id="dd75f730-9059-4e32-a80b-c4ae4f21711f" >
 		<http:listener doc:name="Listener" doc:id="f365f74a-61db-41ae-a8fa-5a87ce309ef9" config-ref="HTTP_Listener_config" path="/test"/>
-		<set-payload value="Hi from CI-CD deployement" doc:name="Set Payload" doc:id="bdcadaaf-3777-42b6-9c9d-45334d8b200b" />
+		<set-payload value="Hi from CI-CD deployemen" doc:name="Set Payload" doc:id="bdcadaaf-3777-42b6-9c9d-45334d8b200b" />
 	</flow>
 </mule>
